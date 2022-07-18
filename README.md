@@ -6,3 +6,7 @@ The difference between liskov substitution principle and interface segregation p
 
 https://stackoverflow.com/questions/54480725/the-difference-between-liskov-substitution-principle-and-interface-segregation-p
 <img width="755" alt="image" src="https://user-images.githubusercontent.com/13162659/179392148-c3ec10de-cb86-49c9-9962-8823ae777e3a.png">
+
+
+Design Patterns : Types and its meaning
+<img width="876" alt="image" src="https://user-images.githubusercontent.com/13162659/179445110-80bb5b6f-745e-4930-b4dc-ba8b5c90aa11.png">
