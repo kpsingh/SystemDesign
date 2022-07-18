@@ -7,6 +7,8 @@ import java.io.Serializable;
 public class DemoSingleton implements Serializable {
 
 	/**
+	 * serialVersionUID
+	 * 
 	 * This is required in cases where your class structure changes between
 	 * serialization and deserialization. A changed class structure will cause the
 	 * JVM to give an exception in the de-serializing process.
@@ -51,8 +53,27 @@ public class DemoSingleton implements Serializable {
 	 * this method, you must return the existing instance to ensure a single
 	 * instance application wide.
 	 */
+	
 	protected Object readResolve() {
 		return getInstance();
+	}
+
+	/**
+	 * Using the "clone" method, we can create a copy of the original object; it's
+	 * the same thing if we applied clone in the singleton pattern. It will create
+	 * two instances: one original and another one cloned object. In this case, we
+	 * will break the Singleton principle.
+	 * 
+	 * 
+	 * To overcome the above issue, we need to implement/override the clone() method
+	 * and throw an exception CloneNotSupportedException from the clone method. If
+	 * anyone tries to create a clone object of Singleton, it will throw an
+	 * exception
+	 */
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		throw new CloneNotSupportedException();
 	}
 
 }
