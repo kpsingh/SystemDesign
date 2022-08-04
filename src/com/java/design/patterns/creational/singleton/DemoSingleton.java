@@ -25,6 +25,7 @@ public class DemoSingleton implements Serializable {
 
 	private DemoSingleton() {
 		// private constructor
+		getInstance();
 	}
 
 	/**
