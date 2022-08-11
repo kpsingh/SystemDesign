@@ -1,6 +1,6 @@
 package com.java.design.oops.solid.lsp.refactor;
 
-public class Instagram implements SocialMedia, SocialMediaPost {
+public class Instagram implements ISocialMedia, ISocialMediaPost {
 
 	@Override
 	public void publishPost(Object post) {

@@ -1,6 +1,6 @@
 package com.java.design.oops.solid.lsp;
 
-public class WhatApp implements SocialMedia {
+public class WhatApp implements ISocialMedia {
 
 	@Override
 	public void chatWithFriend() {

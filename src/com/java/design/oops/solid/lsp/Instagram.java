@@ -1,6 +1,6 @@
 package com.java.design.oops.solid.lsp;
 
-public class Instagram implements SocialMedia {
+public class Instagram implements ISocialMedia {
 
 	public void chatWithFriend() {
 

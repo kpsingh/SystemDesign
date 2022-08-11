@@ -1,6 +1,6 @@
 package com.java.design.oops.solid.lsp.refactor;
 
-public interface SocialMedia {
+public interface ISocialMedia {
 	
 	/**
 	 * These 2 features are supported by all social media plate form

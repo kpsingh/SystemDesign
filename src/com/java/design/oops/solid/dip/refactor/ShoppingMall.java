@@ -2,9 +2,9 @@ package com.java.design.oops.solid.dip.refactor;
 
 public class ShoppingMall {
 
-	PaymentCard card;
+	IPaymentCard card;
 
-	public ShoppingMall(PaymentCard card) {
+	public ShoppingMall(IPaymentCard card) {
 		this.card = card;
 
 	}
@@ -18,7 +18,7 @@ public class ShoppingMall {
 		// DebitCard debitCard=new DebitCard();
 		// CreditCard creditCard=new CreditCard();
 
-		PaymentCard bankCard = new CreditCard();
+		IPaymentCard bankCard = new CreditCard();
 
 		/*
 		 * now we can use any payment method to do the transaction and ShoppingMall is

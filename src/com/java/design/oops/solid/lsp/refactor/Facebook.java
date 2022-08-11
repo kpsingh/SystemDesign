@@ -1,6 +1,6 @@
 package com.java.design.oops.solid.lsp.refactor;
 
-public class Facebook implements SocialMedia, SocialMediaGroupCall, SocialMediaPost {
+public class Facebook implements ISocialMedia, ISocialMediaGroupCall, ISocialMediaPost {
 
 	@Override
 	public void publishPost(Object post) {
