@@ -1,6 +1,6 @@
 package com.java.design.oops.solid.lsp;
 
-public interface ISocialMedia {
+public interface SocialMedia {
 
 	public void chatWithFriend();
 
