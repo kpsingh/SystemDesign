@@ -23,10 +23,11 @@ public class DemoSingleton implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
+	// private constructor to avoid outside instantiation
 	private DemoSingleton() {
-		// private constructor
 
-		getInstance(); // to avoid refelection
+		getInstance(); // to avoid reflection, return the existing object
+
 	}
 
 	/**
