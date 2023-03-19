@@ -44,7 +44,7 @@ public class Trie {
 			node = node.get(ch);
 		}
 
-		return node.isEndNode() == true ? true : false;
+		return node.isEndNode();
 	}
 
 	public boolean startsWith(String prefix) {
@@ -119,5 +119,4 @@ class TrieNode {
 	public void setEndNode(boolean endNode) {
 		this.endNode = endNode;
 	}
-
 }
