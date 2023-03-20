@@ -15,6 +15,9 @@ public class WordDictionary {
 	public WordDictionary() {
 		root = new TrieNode_1();
 	}
+	
+	
+
 
 	public void addWord(String word) {
 
@@ -71,7 +74,8 @@ public class WordDictionary {
 		return node.getIsEndNode();
 
 	}
-
+	
+	
 }
 
 class TrieNode_1 {
