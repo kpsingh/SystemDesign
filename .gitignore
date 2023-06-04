@@ -25,3 +25,5 @@ hs_err_pid*
 .DS_Store
 src/.DS_Store
 src/src/.DS_Store
+*.mp4
+*.txt
