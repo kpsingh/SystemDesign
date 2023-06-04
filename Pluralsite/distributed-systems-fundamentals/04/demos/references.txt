@@ -1,0 +1,23 @@
+Alberto Brandolini
+Event Storming
+eventstorming.com
+
+Rag Dhiman
+Scoping and Organizing .NET Microservices Using Event Storming
+Pluralsight
+https://app.pluralsight.com/library/courses/dotnet-microservices-scoping-organizing
+
+Eric Evans
+Domain-Driven Design
+Addison Wesley
+ISBN 9780321125217
+
+Vladimir Khorikov
+Domain Driven Design in Practice
+Pluralsight
+https://app.pluralsight.com/library/courses/domain-driven-design-in-practice
+
+Michael L Perry
+The Art of Immutable Architecture
+Apress
+ISBN 9781484259542
